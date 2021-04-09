@@ -67,6 +67,7 @@ export default function Footer(props) {
           className={classes.mainContainer}
           justify="center"
           spacing={2}
+          style={{ margin: 0 }}
         >
           <Grid item className={classes.gridItem}>
             <Grid container direction="column">
@@ -76,13 +77,19 @@ export default function Footer(props) {
                 href="/"
                 className={classes.link}
                 onClick={() => props.setValue(0)}
+                style={{ textDecoration: "none" }}
               >
                 Home
               </Grid>
             </Grid>
           </Grid>
           <Grid item className={classes.gridItem}>
-            <Grid container direction="column" spacing={2}>
+            <Grid
+              container
+              direction="column"
+              spacing={2}
+              style={{ margin: 0 }}
+            >
               <Grid
                 item
                 component={Link}
@@ -92,6 +99,7 @@ export default function Footer(props) {
                   props.setValue(1);
                   props.setSelectedIndex(0);
                 }}
+                style={{ textDecoration: "none" }}
               >
                 Services
               </Grid>
@@ -105,6 +113,7 @@ export default function Footer(props) {
                   props.setValue(1);
                   props.setSelectedIndex(1);
                 }}
+                style={{ textDecoration: "none" }}
               >
                 Custom Software Development
               </Grid>
@@ -117,6 +126,7 @@ export default function Footer(props) {
                   props.setValue(1);
                   props.setSelectedIndex(2);
                 }}
+                style={{ textDecoration: "none" }}
               >
                 Mobile App Development
               </Grid>
@@ -129,13 +139,19 @@ export default function Footer(props) {
                   props.setValue(1);
                   props.setSelectedIndex(3);
                 }}
+                style={{ textDecoration: "none" }}
               >
                 Website Development
               </Grid>
             </Grid>
           </Grid>
           <Grid item className={classes.gridItem}>
-            <Grid container direction="column" spacing={2}>
+            <Grid
+              container
+              direction="column"
+              spacing={2}
+              style={{ margin: 0 }}
+            >
               <Grid
                 item
                 component={Link}
@@ -152,6 +168,7 @@ export default function Footer(props) {
                 href="/revolution"
                 className={classes.link}
                 onClick={() => props.setValue(2)}
+                style={{ textDecoration: "none" }}
               >
                 Vision
               </Grid>
@@ -161,6 +178,7 @@ export default function Footer(props) {
                 href="/revolution"
                 className={classes.link}
                 onClick={() => props.setValue(2)}
+                style={{ textDecoration: "none" }}
               >
                 Technology
               </Grid>
@@ -170,19 +188,26 @@ export default function Footer(props) {
                 href="/revolution"
                 className={classes.link}
                 onClick={() => props.setValue(2)}
+                style={{ textDecoration: "none" }}
               >
                 Process
               </Grid>
             </Grid>
           </Grid>
           <Grid item className={classes.gridItem}>
-            <Grid container direction="column" spacing={2}>
+            <Grid
+              container
+              direction="column"
+              spacing={2}
+              style={{ margin: 0 }}
+            >
               <Grid
                 item
                 component={Link}
                 href="/about"
                 className={classes.link}
                 onClick={() => props.setValue(3)}
+                style={{ textDecoration: "none" }}
               >
                 About Us
               </Grid>
@@ -193,6 +218,7 @@ export default function Footer(props) {
                 href="/about"
                 className={classes.link}
                 onClick={() => props.setValue(3)}
+                style={{ textDecoration: "none" }}
               >
                 Mission Statement
               </Grid>
@@ -202,6 +228,7 @@ export default function Footer(props) {
                 href="/about"
                 className={classes.link}
                 onClick={() => props.setValue(3)}
+                style={{ textDecoration: "none" }}
               >
                 History
               </Grid>
@@ -211,19 +238,26 @@ export default function Footer(props) {
                 href="/about"
                 className={classes.link}
                 onClick={() => props.setValue(3)}
+                style={{ textDecoration: "none" }}
               >
                 Team
               </Grid>
             </Grid>
           </Grid>
           <Grid item className={classes.gridItem}>
-            <Grid container direction="column" spacing={2}>
+            <Grid
+              container
+              direction="column"
+              spacing={2}
+              style={{ margin: 0 }}
+            >
               <Grid
                 item
                 component={Link}
                 href="/contact"
                 className={classes.link}
                 onClick={() => props.setValue(4)}
+                style={{ textDecoration: "none" }}
               >
                 Contact Us
               </Grid>

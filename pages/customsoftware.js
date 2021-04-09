@@ -240,8 +240,9 @@ export default function CustomSoftware(props) {
         container
         alignItems={matchesMD ? "center" : "undefined"}
         direction={matchesMD ? "column" : "row"}
-        justify="space-between"
+        justify={matchesMD ? "center" : "space-between"}
         className={classes.rowContainer}
+        style={{ display: matchesMD ? "grid" : undefined }}
       >
         <Grid
           item
@@ -361,9 +362,9 @@ export default function CustomSoftware(props) {
         container
         alignItems={matchesMD ? "center" : "undefined"}
         direction={matchesMD ? "column" : "row"}
-        justify="space-between"
-        style={{ marginBottom: "10em" }}
+        justify={matchesMD ? "center" : "space-between"}
         className={classes.rowContainer}
+        style={{ display: matchesMD ? "grid" : undefined }}
       >
         <Grid
           item
@@ -460,7 +461,7 @@ export default function CustomSoftware(props) {
           </Grid>
         </Grid>
       </Grid>
-      <Grid item>
+      <Grid item style={{ marginTop: "10em" }}>
         <CallToAction setValue={props.setValue} />
       </Grid>
     </Grid>

@@ -182,8 +182,9 @@ export default function MobileApps(props) {
           <Lottie
             options={defaultOptions}
             style={{
-              maxWidth: "20em",
+              maxWidth: matchesMD ? "15em" : "20em",
               marginBottom: "5em",
+              height: matchesMD ? "20em" : undefined,
             }}
           />
         </Grid>
@@ -222,7 +223,10 @@ export default function MobileApps(props) {
         container
         direction={matchesMD ? "column" : "row"}
         className={classes.rowContainer}
-        style={{ marginBottom: "15em" }}
+        style={{
+          marginBottom: "15em",
+          display: matchesMD ? "grid" : undefined,
+        }}
       >
         <Grid item container direction="column" alignItems="center" md>
           <Grid item>

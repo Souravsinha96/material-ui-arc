@@ -25,14 +25,17 @@ const useStyles = makeStyles((theme) => ({
   serviceContainer: {
     marginTop: "10em",
     [theme.breakpoints.down("sm")]: {
-      padding: "25px",
+      padding: 25,
+    },
+    [theme.breakpoints.down("xs")]: {
+      padding: 5,
     },
   },
   learnButton: {
     ...theme.typography.learnButton,
-    fontSize: "0.75rem",
+    fontSize: "0.7rem",
     height: 35,
-    padding: "5px",
+    padding: 5,
     [theme.breakpoints.down("sm")]: {
       marginBottom: "2em",
     },
@@ -71,7 +74,7 @@ export default function Services(props) {
         }}
       >
         <Typography
-          align={matchesSM ? "center" : "undefined"}
+          align={matchesSM ? "center" : undefined}
           variant="h2"
           gutterBottom
         >
@@ -79,8 +82,8 @@ export default function Services(props) {
         </Typography>
       </Grid>
       <Grid item>
-        {""}
-        {/*-----Mobile Block-----*/}
+        {" "}
+        {/*-----iOS/Android Block-----*/}
         <Grid
           container
           direction="row"
@@ -92,7 +95,7 @@ export default function Services(props) {
             item
             style={{
               textAlign: matchesSM ? "center" : undefined,
-              width: matchesSM ? "undefined" : "35em",
+              width: matchesSM ? undefined : "35em",
             }}
           >
             <Typography variant="h4">iOS/Android App Development</Typography>
@@ -106,27 +109,22 @@ export default function Services(props) {
             <Button
               component={Link}
               href="/mobileapps"
-              onClick={() => {
-                props.setValue(5);
-                props.setSelectedIndex(2);
-              }}
               variant="outlined"
               className={classes.learnButton}
+              onClick={() => {
+                props.setValue(1);
+                props.setSelectedIndex(2);
+              }}
             >
-              <span style={{ marginRight: "5px" }}>Learn More</span>
+              <span style={{ marginRight: 10 }}>Learn More</span>
               <ButtonArrow
-                height={15}
-                width={15}
+                width={10}
+                height={10}
                 fill={theme.palette.common.blue}
               />
             </Button>
           </Grid>
-          <Grid
-            item
-            style={{
-              marginRight: matchesSM ? 0 : "5em",
-            }}
-          >
+          <Grid item style={{ marginRight: matchesSM ? 0 : "5em" }}>
             <img
               className={classes.icon}
               alt="mobile phone icon"
@@ -137,12 +135,12 @@ export default function Services(props) {
         </Grid>
       </Grid>
       <Grid item>
-        {""}
+        {" "}
         {/*-----Custom Software Block-----*/}
         <Grid
           container
           direction="row"
-          justify={matchesSM ? "center" : "undefined"}
+          justify={matchesSM ? "center" : undefined}
           className={classes.serviceContainer}
         >
           <Grid
@@ -163,17 +161,17 @@ export default function Services(props) {
             <Button
               component={Link}
               href="/customsoftware"
-              onClick={() => {
-                props.setValue(5);
-                props.setSelectedIndex(1);
-              }}
               variant="outlined"
               className={classes.learnButton}
+              onClick={() => {
+                props.setValue(1);
+                props.setSelectedIndex(1);
+              }}
             >
-              <span style={{ marginRight: "5px" }}>Learn More</span>
+              <span style={{ marginRight: 10 }}>Learn More</span>
               <ButtonArrow
-                height={15}
-                width={15}
+                width={10}
+                height={10}
                 fill={theme.palette.common.blue}
               />
             </Button>
@@ -182,15 +180,15 @@ export default function Services(props) {
             <img
               className={classes.icon}
               alt="custom software icon"
-              src="/assets/Custom Software Icon.svg"
+              src="/assets/customSoftware.svg"
             />
           </Grid>
         </Grid>
       </Grid>
 
       <Grid item>
-        {""}
-        {/*-----Webistes Block-----*/}
+        {" "}
+        {/*-----Websites Block-----*/}
         <Grid
           container
           direction="row"
@@ -202,7 +200,7 @@ export default function Services(props) {
             item
             style={{
               textAlign: matchesSM ? "center" : undefined,
-              width: matchesSM ? "undefined" : "35em",
+              width: matchesSM ? undefined : "35em",
             }}
           >
             <Typography variant="h4">Website Development</Typography>
@@ -215,17 +213,17 @@ export default function Services(props) {
             <Button
               component={Link}
               href="/websites"
-              onClick={() => {
-                props.setValue(5);
-                props.setSelectedIndex(3);
-              }}
               variant="outlined"
               className={classes.learnButton}
+              onClick={() => {
+                props.setValue(1);
+                props.setSelectedIndex(3);
+              }}
             >
-              <span style={{ marginRight: "5px" }}>Learn More</span>
+              <span style={{ marginRight: 10 }}>Learn More</span>
               <ButtonArrow
-                height={15}
-                width={15}
+                width={10}
+                height={10}
                 fill={theme.palette.common.blue}
               />
             </Button>

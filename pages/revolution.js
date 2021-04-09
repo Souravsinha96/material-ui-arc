@@ -458,6 +458,7 @@ export default function Revolution(props) {
             src="/assets/reviewIcon.svg"
             alt="magnifying glass"
             width="100%"
+            style={{ maxWidth: "40em" }}
           />
         </Grid>
       </Grid>
@@ -572,6 +573,7 @@ export default function Revolution(props) {
             src="/assets/reviewIcon.svg"
             alt="magnifying glass"
             width="100%"
+            style={{ maxWidth: "40em" }}
           />
         </Grid>
       </Grid>
