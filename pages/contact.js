@@ -222,7 +222,7 @@ export default function Contact(props) {
                     href="mailto:souravsinha1604@gmail.com"
                     style={{ textDecoration: "none", color: "inherit" }}
                   >
-                    sourav1604sinha@gmail.com
+                    souravsinha1604@gmail.com
                   </a>
                 </Typography>
               </Grid>

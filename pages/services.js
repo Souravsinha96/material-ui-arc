@@ -180,7 +180,7 @@ export default function Services(props) {
             <img
               className={classes.icon}
               alt="custom software icon"
-              src="/assets/customSoftware.svg"
+              src="/assets/CustomSoftware.svg"
             />
           </Grid>
         </Grid>

@@ -67,7 +67,7 @@ const defaultQuestions = [
         id: 2,
         title: "iOS/Android Development",
         subtitle: null,
-        icon: "/assets/mobile.svg",
+        icon: "/assets/mobileIcon.svg",
         iconAlt: "phone and tablet outline",
         selected: false,
         cost: 0,
