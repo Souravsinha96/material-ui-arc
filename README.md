@@ -1,3 +1,18 @@
+URL: https://material-ui-arc-teal.vercel.app/
+
+This project is bulit mainly on React and Material-UI.
+
+Core Features:
+1. Pages are built on Material-UI components.
+2. Migrated from create-react-app to Next.js for Server side rendering(SSR)
+3. Responsive design 
+4. Integrated Animations using React-lottie
+5. Cross Browser Support
+6. Search Engine Optimization(SEO) in React JS 
+
+
+
+
 # Next.js example
 
 ## How to use
