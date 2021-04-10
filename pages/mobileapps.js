@@ -60,8 +60,16 @@ export default function MobileApps(props) {
           content="Bringing West Coast Technology to the Midwest | iOS/Android App Development"
           key="og:title"
         />
-        <meta property="og:url" key="og:url" content="arc.com/mobileapps" />
-        <link rel="canonical" key="canonical" href="arc.com/mobileapps" />
+        <meta
+          property="og:url"
+          key="og:url"
+          content="https://material-ui-arc-teal.vercel.app/mobileapps"
+        />
+        <link
+          rel="canonical"
+          key="canonical"
+          href="https://material-ui-arc-teal.vercel.app/mobileapps"
+        />
       </Head>
       <Grid
         item

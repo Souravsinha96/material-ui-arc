@@ -67,7 +67,7 @@ const defaultQuestions = [
         id: 2,
         title: "iOS/Android Development",
         subtitle: null,
-        icon: "/assets/mobileIcon.svg",
+        icon: "/assets/mobile.svg",
         iconAlt: "phone and tablet outline",
         selected: false,
         cost: 0,
@@ -104,7 +104,7 @@ const softwareQuestions = [
         id: 2,
         title: "iOS Application",
         subtitle: null,
-        icon: "/assets/iPhone.svg",
+        icon: "/assets/iphone.svg",
         iconAlt: "outline of iphone",
         selected: false,
         cost: 100,
@@ -691,8 +691,16 @@ export default function Estimate() {
           content="Bringing West Coast Technology to the Midwest | Free Estimate"
           key="og:title"
         />
-        <meta property="og:url" key="og:url" content="arc.com/estimate" />
-        <link rel="canonical" key="canonical" href="arc.com/estimate" />
+        <meta
+          property="og:url"
+          key="og:url"
+          content="https://material-ui-arc-teal.vercel.app/estimate"
+        />
+        <link
+          rel="canonical"
+          key="canonical"
+          href="https://material-ui-arc-teal.vercel.app/estimate"
+        />
       </Head>
       <Grid
         item

@@ -141,11 +141,15 @@ export default function Contact(props) {
           content="Bringing West Coast Technology to the Midwest | Contact Us"
           key="og:title"
         />
-        <meta property="og:url" key="og:url" content="arc.com/contact" />
+        <meta
+          property="og:url"
+          key="og:url"
+          content="https://material-ui-arc-teal.vercel.app/contact"
+        />
         <link
           rel="canonical"
           key="canonical"
-          href="https://arc.com/contact.js"
+          href="https://material-ui-arc-teal.vercel.app/contact.js"
         />
       </Head>
       <Grid

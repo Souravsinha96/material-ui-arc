@@ -52,8 +52,16 @@ export default function Revolution(props) {
           content="Bringing West Coast Technology to the Midwest | The Revolution"
           key="og:title"
         />
-        <meta property="og:url" key="og:url" content="arc.com/revolution" />
-        <link rel="canonical" key="canonical" href="arc.com/revolution" />
+        <meta
+          property="og:url"
+          key="og:url"
+          content="https://material-ui-arc-teal.vercel.app/revolution"
+        />
+        <link
+          rel="canonical"
+          key="canonical"
+          href="https://material-ui-arc-teal.vercel.app/revolution"
+        />
       </Head>
       <Grid
         item
