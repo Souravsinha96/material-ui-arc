@@ -1,6 +1,6 @@
 URL: https://material-ui-arc-teal.vercel.app/
 
-This project is bulit mainly on React and Material-UI.
+This project is built mainly on React and Material-UI.
 
 Core Features:
 1. Pages are built on Material-UI components.
